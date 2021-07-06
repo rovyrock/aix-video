@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <filter id="减去_2" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_686" data-name="组 686" transform="translate(9 9)">
+    <g id="组_593" data-name="组 593" transform="translate(0 0)">
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#减去_2)">
+        <path id="减去_2-2" data-name="减去 2" d="M16,32A16,16,0,1,1,32,16,16.018,16.018,0,0,1,16,32ZM11.489,8V23.193l13.023-7.6L11.489,8Z" transform="translate(9 9)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
