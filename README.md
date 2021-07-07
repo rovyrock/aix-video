@@ -63,3 +63,22 @@ export default function App(props) {
   );
 }
 ```
+
+## props
+
+| Name      | Description                 |
+| --------- | --------------------------- |
+| width     | number (default:640)        |
+| height    | number (default:320)        |
+| src       | string (video src)          |
+| poster    | string (video poster)       |
+| startTime | number (video startTime)    |
+| loop      | Boolean (default false)     |
+| muted     | Boolean (default true)      |
+| controls  | Boolean (default true)      |
+| autoPlay  | Boolean (default false)     |
+| onPause   | function (return videoInfo) |
+| onPlay    | function (return videoInfo) |
+| onEnded   | function (return videoInfo) |
+| onSeeked  | function (return videoInfo) |
+| onCanPlay | function (return videoInfo) |
